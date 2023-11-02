@@ -7,6 +7,7 @@ body {
 .container {
     width: 400px;
     margin: 16px auto 0;
+    margin: 16px auto;
 }
 
 h1 {
@@ -37,6 +38,13 @@ li input:checked+span {
     text-decoration: line-through;
 }
 
+li input {
+    margin-right: 8px;
+}
+
+li label {
+    margin-right: 8px;
+}
 
 form {
     display: flex;
